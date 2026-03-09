@@ -99,7 +99,7 @@ async def on_message(message):
             await message.author.send(
                 "🏁 **Well done.**\n\n"
                 "Here is your flag:\n"
-                "`CTF{p0lit3n3ss_1s_th3_k3y}`"
+                "`RedX{p0lit3n3ss_1s_th3_k3y}`"
             )
             reply = await message.channel.send(
                 f"{message.author.mention} 🏁 **Well done.** Check your DMs!"
@@ -114,3 +114,4 @@ async def on_message(message):
         return
 
 client.run(TOKEN)
+
